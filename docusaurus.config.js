@@ -9,13 +9,15 @@ const { DOCUSAURUS_VERSION } = require("@docusaurus/utils");
 const config = {
   title: "Docusaurus OpenAPI Docs",
   tagline: "OpenAPI plugin for generating API reference docs in Docusaurus v2",
-  url: "https://docusaurus-openapi.tryingpan.dev",
+  url: "https://selankon.github.io/",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "PaloAltoNetworks",
-  projectName: "docusaurus-openapi-docs",
+  organizationName: "selankon",
+  projectName: "vocdoni-docs-demo",
+  deploymentBranch: "deploy",
+  // trailingSlash: false,
 
   presets: [
     [
@@ -207,6 +209,8 @@ const config = {
               },
             },
           },
+
+
           vocdoni: {
             specPath: "examples/vocdoni.yaml",
             outputDir: "docs/vocdoni",
@@ -214,10 +218,12 @@ const config = {
               groupPathsBy: "tag",
               categoryLinkSource: "tag",
             },
-            template: "api.mustache", // Customize API MDX with mustache template
+            // template: "api.mustache", // Customize API MDX with mustache template
             downloadUrl:
               "https://raw.githubusercontent.com/PaloAltoNetworks/docusaurus-openapi-docs/main/demo/examples/petstore.yaml",
           },
+
+
           // cos: {
           //   specPath: "examples/openapi-cos.json",
           //   outputDir: "docs/cos",
