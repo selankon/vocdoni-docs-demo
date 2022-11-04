@@ -10,7 +10,7 @@ const config = {
   title: "Docusaurus OpenAPI Docs",
   tagline: "OpenAPI plugin for generating API reference docs in Docusaurus v2",
   url: "https://selankon.github.io/",
-  baseUrl: "/",
+  baseUrl: "/vocdoni-docs-demo",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

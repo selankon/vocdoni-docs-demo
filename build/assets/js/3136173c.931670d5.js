@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdemo=self.webpackChunkdemo||[]).push([[6428],{1122:e=>{e.exports=JSON.parse('{"title":"Customization","slug":"/category/customization","permalink":"/category/customization","navigation":{"previous":{"title":"Versioning","permalink":"/versioning"},"next":{"title":"Language Tabs","permalink":"/customization/languagetabs"}}}')}}]);
